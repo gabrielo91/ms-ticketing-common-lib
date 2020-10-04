@@ -1,0 +1,11 @@
+{
+  "name": "@gb-tickets/common",
+  "version": "1.0.0",
+  "description": "Library for auth management in ticketing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel <gabrielo_9103@hotmail.com>",
+  "license": "ISC"
+}

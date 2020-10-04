@@ -4,8 +4,13 @@
   "description": "Library for auth management in ticketing project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc"
   },
   "author": "Gabriel <gabrielo_9103@hotmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^3.0.1",
+    "typescript": "^4.0.3"
+  }
 }

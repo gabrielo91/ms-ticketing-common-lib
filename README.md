@@ -1,3 +1,3 @@
 ## Description
 
-- Library for auth management in ticketing project.
+- Library for auth management in ticketing project

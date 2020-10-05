@@ -4,6 +4,10 @@
   "description": "Library for auth management in ticketing project",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielo91/ms-ticketing-common-lib"
+  },
   "files": [
     "build/**/*"
   ],

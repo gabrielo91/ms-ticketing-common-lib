@@ -9,7 +9,8 @@ export const errorHandler = (
 ) => {
   console.log('is valid');
   console.log(err instanceof CustomError);
-  console.log(err);
+  console.log('err: ', err);
+  console.log('instance.constructor.name', err.constructor.name);
   if (err instanceof CustomError) {
     return res.status(err.statusCode).send({ errors: err.serializeErrors() });
   }

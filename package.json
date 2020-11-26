@@ -1,6 +1,6 @@
 {
   "name": "@gb-tickets/common",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Library for auth management in ticketing project",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
